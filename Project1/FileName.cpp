@@ -180,18 +180,13 @@ public:
 		PhoneNumber = n;
 		TownCountry = t;
 		NameOfPlace = name;
-		TownCountryOfPlace = tp;
+		TownCountryOfPlace = tp;	
 		GroupNumber = ng;
 	}
 };
 int main() {
-	Student chelick;
-	chelick.Init("Timchenko Dmytro Oleksiovich", "12.11.2007", "083483919", "odessa/ukraine", "itStep", "Odessa/Ukraine", "KH-251");
-	chelick.Print();
-	Point random;
-	random.InitXYZ(1, 2, 3);
-	random.PrintXYZ();
 	NoteBook MyPc;
-	MyPc.InitPC()
-
+	MyPc.InitPC("ryzen", "asus", "nvidia", "123", "kskgnsg", "22knj2njt", 142141);
+	MyPc.PrintPC();	
+	int d;
 }	
